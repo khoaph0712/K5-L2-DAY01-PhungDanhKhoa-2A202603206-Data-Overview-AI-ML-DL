@@ -81,4 +81,4 @@ Trong production: ảnh thô được kiểm tra phạm vi và quyền sử dụ
 - [x] Checksum ba model và ba ảnh đều PASS; SHA-256 model đầy đủ có trong JSON, ảnh được cố định bằng sample ID/COCO ID và checksum trong notebook nguồn.
 - [x] Đã xem cả ba PNG và nêu điểm mơ hồ cùng hành động annotator/reviewer.
 - [x] Không thêm họ tên, MSSV, email hoặc dữ liệu nhạy cảm vào báo cáo/output.
-- [ ] Đã nộp link repository trên LMS — bước này chưa thực hiện.
+- [x] Đã nộp link repository trên LMS.
