@@ -1,6 +1,6 @@
 # Báo cáo bài thực hành Ngày 1 – Đọc prediction YOLO11 để hiểu định dạng nhãn
 
-**Ngày chạy:** 06/11/2026 (giờ Việt Nam).
+**Ngày chạy:** 06/11/2026; chạy lại kiểm chứng ngày 06/11/2026 (giờ Việt Nam).
 
 **Runtime Colab:** GPU NVIDIA T4, device CUDA.
 
@@ -10,7 +10,7 @@
 
 **Ngưỡng detection/segmentation tạo JSON:** 0.35. So sánh detection thêm ở 0.20 và 0.60 theo notebook.
 
-**Thay đổi so với notebook nguồn:** Giữ nguyên các ô suy luận, checkpoint, package, ảnh và threshold của bản v1.0.3. Thêm một ô phụ để in record kitchen và tải ZIP bằng chứng trước khi hoàn thiện báo cáo. Ô upload ban đầu được hủy khi chưa có báo cáo; việc này không thay đổi JSON/PNG đã validation. Báo cáo được hoàn thiện sau khi đọc JSON và xem cả ba PNG; có hỗ trợ AI trong thao tác và soạn thảo.
+**Thay đổi so với notebook nguồn:** Giữ nguyên checkpoint, package, ảnh, threshold và các tham số suy luận của bản v1.0.3. Ô vẽ segmentation được thêm dòng `segmentation_model = YOLO(SEGMENTATION_MODEL_FILE)` để khởi tạo lại model trước khi vẽ; không thay đổi checkpoint hoặc tham số prediction. Thêm một ô phụ để in record kitchen và tải ZIP bằng chứng trước khi hoàn thiện báo cáo. Ô upload ban đầu được hủy khi chưa có báo cáo; việc này không thay đổi JSON/PNG đã validation. Báo cáo được hoàn thiện sau khi đọc JSON và xem cả ba PNG; có hỗ trợ AI trong thao tác và soạn thảo.
 
 ## 1. Phân loại ảnh
 
